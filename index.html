@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<h1>Star Wars RPG</h1>		
+	
+
+	<div id="game">
+		<div id="players" class="container"></div>
+		<div class="fight-section tbl invisible" id="fight-section">
+		<div class="tbl-row">
+			<div class="tbl-cell">Your character</div>
+			<div class="tbl-cell">vs</div>
+			<div class="tbl-cell">Defender</div>
+		</div>
+
+		<div class="tbl-row">
+			<div class="tbl-cell" id="your-character"></div>
+			<div class="tbl-cell"><button id="btn-fight">FIGHT!</button>
+				<div class="fight-result-container">
+					<div id="fight-result" class="fight-result-text"></div>
+					<div class="cover"></div>
+				</div>
+			</div>
+			<div class="tbl-cell" id="container-defender"></div>
+		</div>
+	</div>
+	
+
+	<div>
+		<h2>Enemies available to attack</h2>
+	</div>
+
+	<div id="enemies" class="container"></div>
+	</div>
+
+	
+
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+	background-image: url(../images/background-image.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	width: 980px;
+	min-height: 500px;
+	color: white;
+	font-family: DejaVu Sans;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	margin: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
+}
+#container {	
+	width:1000px;	
+	min-height: 170px;
+}
+.container-choose {
+	display: inline-block;
+	background-color: #fff;
+	color: #555;
+	margin: 5px;
+	border: solid yellow 3px;
+	height: 160px;
+	width:200px;
+	vertical-align: top;
+}
+
+.container-character {
+	display: inline-block;
+	background-color: #A0F78F;
+	color: #555;
+	margin: 5px;
+	border: solid green 3px;
+	height: 160px;
+	width:200px;
+	vertical-align: top;
+}
+
+.container-enemy {
+	display: inline-block;
+	background-color: pink;
+	color: #555;
+	margin: 5px;
+	border: solid red 3px;
+	height: 160px;
+	width: 200px;
+	vertical-align: top;
+}
+.container-defender {
+	display: inline-block;
+	background-color: black;
+	color: #555;
+	margin: 5px;
+	border: solid red 3px;
+	height: 160px;
+	width: 200px;
+	vertical-align: top;
+}
+.tbl {
+	display: table;
+}
+.tbl-row {
+	display: table-row;
+	position: relative;
+}
+.tbl-cell {
+	display: table-cell;
+	min-width: 200px;
+	min-height: 200px;
+}
+.invisible {
+	opacity: 0;
+	position: relative;
+}
+.fight-result-container {
+	position: relative;
+}
+.cover {
+	opacity:.5;
+	background:#000;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 10;
+}
+.fight-result-text{
+	position: absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+	color: yellow;
+	position:relative;
+	z-index:20;
+	padding:10px;
+}
